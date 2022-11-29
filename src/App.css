@@ -39,5 +39,11 @@ h1{
 .li-header{
   list-style: none;
   font-weight: 750;
+  cursor: pointer;
 }
 
+.home-content{
+  background-color: aqua;
+  margin: 0 auto;
+  max-width: 150vh;
+}
