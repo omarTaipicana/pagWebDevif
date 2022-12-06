@@ -6,6 +6,7 @@ import Home from "./pages/Home"
 import Devif from './pages/Devif'
 import MyNav from './components/MyNav'
 import Victima from './pages/Victima'
+import MyFooter from './components/MyFooter'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
             <Route path='/devif' element={<Devif />} />
             <Route path='/victima' element={<Victima/>} />
           </Routes>
+      <MyFooter/>
       </HashRouter>
     </div>
   )
