@@ -10,9 +10,9 @@ const MyNav = () => {
            
       <header>
         <div className='header'>
-          <img src={Escudo_PPNN2} alt="Escudo Policía Nacional del Ecuador" />
+          <img className='img-header' src={Escudo_PPNN2} alt="Escudo Policía Nacional del Ecuador" />
           <h1>UNIDAD NACIONAL DE INVESTIGACIÓN COTRA LA VIOLENCIA DE GÉNERO,  <br /> MUJER O MIEMBROS DEL NÚCLEO FAMILIAR</h1>
-          <img src={Escudo_DEVIF} alt="" />
+          <img className='img-header' src={Escudo_DEVIF} alt="" />
         </div>
         <nav>
           <ul className='ul-header'>

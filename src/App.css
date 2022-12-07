@@ -1,11 +1,17 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.header{
+.App{
+  background-image: url("./assets/images/FONDO.png");
+}
+
+/* ------------------------------------------------------------------------------------------ 
+header */
+.header {
   background-color: rgb(22, 73, 135);
   width: 100%;
   display: flex;
@@ -14,20 +20,20 @@
   /* position: fixed; */
 }
 
-img{
-height: 80px;
-margin: 0.5rem;
-margin: 0.7rem 2rem;
+.img-header {
+  height: 80px;
+  margin: 0.5rem;
+  margin: 0.7rem 2rem;
 }
 
-h1{
+h1 {
   color: white;
   text-align: center;
   font-size: 25px;
   margin: auto 0;
 }
 
-.ul-header{
+.ul-header {
   display: flex;
   gap: 2rem;
   background-color: rgb(167, 169, 172);
@@ -36,28 +42,70 @@ h1{
   justify-content: center;
 }
 
-.li-header{
+.li-header {
   list-style: none;
   font-weight: 750;
   cursor: pointer;
 }
 
-.home-content{
-  background-color: aqua;
+/* ------------------------------------------------------------------------------
+home */
+
+.home-content {
+  /* background-color: aqua; */
   margin: 0 auto;
   max-width: 160vh;
+  display: flex;
+  align-items: center;
+  
 }
-/* ---------------------------------------------------- */
+
+.home-title-content {
+  padding: 2rem;
+  text-align: center;
+}
+
+.home-title {
+  font-size: 600%;
+  font-weight: 1000;
+  color:  rgb(22, 73, 135);
+}
+
+.home-subtitle {
+  font-size: 130%;
+  font-weight: 1000;
+}
+
+.home-image img {
+  height: 550px;
+  padding: 2rem 4rem;
+}
+
+.home-title-img{
+  padding: 2rem;
+  height: 450px;
+}
+
+
+
+/* ---------------------------------------------------------------------------------------
+footer */
+
 .footer{
+  padding-bottom: 1rem;
+}
+
+.footer-content {
   background-color: rgb(167, 169, 172);
   width: 100%;
   display: flex;
   margin: 0 auto;
   padding: 1rem;
   justify-content: space-around;
+  
 }
 
-.footer-link{
+.footer-link {
   text-decoration: none;
   color: black;
 }
