@@ -5,7 +5,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.App{
+.App {
   background-image: url("./assets/images/FONDO.png");
 }
 
@@ -57,33 +57,38 @@ home */
   max-width: 160vh;
   display: flex;
   align-items: center;
-  
+  justify-content: space-between;
 }
 
-.home-title-content {
-  padding: 2rem;
-  text-align: center;
-}
 
 .home-title {
-  font-size: 600%;
+  font-size: 800%;
   font-weight: 1000;
-  color:  rgb(22, 73, 135);
+  color: rgb(22, 73, 135);
+  text-align: center;
+  -webkit-text-stroke: 5px black;
 }
 
-.home-subtitle {
-  font-size: 130%;
-  font-weight: 1000;
-}
+.home-image {
+  width: 80%;
+  text-align: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  }
 
 .home-image img {
-  height: 550px;
-  padding: 2rem 4rem;
+  width: 80%;
+  margin: 0 auto;
 }
 
-.home-title-img{
+.home-family {
   padding: 2rem;
   height: 450px;
+}
+
+.fa-solid {
+  font-size: 40px;
 }
 
 
@@ -91,7 +96,7 @@ home */
 /* ---------------------------------------------------------------------------------------
 footer */
 
-.footer{
+.footer {
   padding-bottom: 1rem;
 }
 
@@ -102,7 +107,7 @@ footer */
   margin: 0 auto;
   padding: 1rem;
   justify-content: space-around;
-  
+
 }
 
 .footer-link {
