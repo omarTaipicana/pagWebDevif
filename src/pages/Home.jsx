@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import FAMILIA2 from "../assets/images/FAMILIA2.png";
+import YVSV from "../assets/images/YVSV.png";
 import info_1 from "../assets/images/img-ig-c/info_1.jpeg";
 import info_2 from "../assets/images/img-ig-c/info_2.jpeg";
 import info_3 from "../assets/images/img-ig-c/info_3.jpeg";
@@ -18,7 +19,7 @@ const Home = () => {
     return (
         <div className='home'>
             <div>
-                <h2 className='home-title'>D E V I F</h2>
+                <h2 className='home-title'>D E V I F</h2>             
                 <div className='home-content'>
                     <div>
                         <img className='home-family' src={FAMILIA2} alt="" />
@@ -28,6 +29,9 @@ const Home = () => {
                         <img src={info[index]} alt="" />
                         <i className="fa-solid fa-caret-right" onClick={index == info.length - 1 ? () => setIndex(0) : () => setIndex(index + 1)}></i>
                     </div>
+                </div>
+                <div className='yvsv-content'>
+                <img className='yvsv' src={YVSV} alt="" />
                 </div>
             </div>
         </div>
